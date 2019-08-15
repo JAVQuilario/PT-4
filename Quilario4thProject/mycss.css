@@ -1,0 +1,134 @@
+@font-face {
+	font-family:Salmon;
+	src: url(Salmon.otf);
+}
+
+/** Wallpapers BTW**/
+#background-city1 {background-image: url(background-city1.jpg);}
+#background-city2 {background-image: url(background-city2.jpg);}
+#background-city3 {background-image: url(background-city3.jpg);}
+#background-city4 {background-image: url(background-city4.jpg);}
+#background-city5 {background-image: url(background-city5.jpg);}
+#background-city6 {background-image: url(background-city6.jpg);}
+
+body {
+	transition-duration: 3s;
+	background-image: url(background-city1.jpg);
+	background-color:black;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+#titlebtw {
+	font-family: Salmon;
+	font-weight: normal;
+	transition-duration: 2s;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 120px;
+}
+#titlebtw:hover {
+	transition-duration: 2s;
+	color: white;
+}
+.page-wrapper {
+	font-family: sans-serif;
+	width: 100%;
+}
+.form-container {
+	color: white;
+	text-align: center;
+	background-image: linear-gradient(rgb(0,0,0,0.9),rgb(30,30,30,0.8),rgb(30,30,30,0.1));
+	border-radius: 5px;
+	margin: 50px auto;
+	padding-top: 20px;
+	width: 300px;
+	float: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sign-up {
+	height: 500px;
+}
+
+#register {
+	height: 700px;
+	width: 400px;
+}
+
+.form-container h1 {
+	letter-spacing: 1px;
+}
+.form-container a {
+	transition-duration: 1s;
+	text-decoration: none;
+	color: rgb(100,100,200);
+}
+.form-container a:hover {
+	transition-duration: 0.1s;
+	color: white;
+	text-decoration: underline;
+}
+.login-options {
+	text-align: left;
+	padding-left: 55px
+}
+#loginbtn {
+	font-weight: bold;
+	transition-duration: 0.5s;
+	background-color: rgb(110,110,255);
+	border-width: 0px;
+	border-radius: 2px;
+	padding:8px 25% 8px 25%;
+}
+#loginbtn:hover {
+	transition-duration: 0.5s;
+	background-color: rgb(225,225,250);
+}
+
+.social-media {
+	font-weight: bold;
+	background-color: rgb(225,225,250);
+	color: white;
+	transition-duration: 0.5s;
+	border-width: 0px;
+	border-radius: 1px;
+	padding: 5px 30px 5px 30px;
+	margin: 4px;
+	width: 270px;
+	text-align: center;
+}
+
+#sign-up-with-facebook {background-color: rgb(66,103,178);}
+#sign-up-with-facebook:hover {background-color: rgb(96,133,208);}
+
+#sign-up-with-gmail {background-color: rgb(218,72,57);}
+#sign-up-with-gmail:hover {background-color: rgb(248,102,87);}
+
+#sign-up-with-twitter {background-color: rgb(40,170,225);}
+#sign-up-with-twitter:hover {background-color: rgb(80,210,255);}
+
+#date {width: 170px; text-align: left;}
+input {
+	padding: 2px;
+}
+
+#radio {
+	margin-left: 110px;
+	text-align: left;
+}
+
+#sign-up-already {
+	margin-left: 60px;
+}
+
+.login input{
+	border-style: none none solid none;
+	border-width: 1px;
+}
+
+footer {
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+}
